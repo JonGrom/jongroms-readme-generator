@@ -24,9 +24,7 @@
 
   ## Assignment Essentials
 
-  [Github](https://github.com/JonGrom/jongroms-readme-generator)
-
-  Demonstration [Video](./demonstration/demonstration-video.mp4)
+  Demonstration [Video](https://youtu.be/XunPHeKfDc0)
 
   ## License
   
