@@ -40,7 +40,7 @@ const questions = [
         type: "list",
         message: "What license is this project using?",
         name: "license",
-        choices: ["Apache License 2.0", "GNU AGPLv3", "GNU GPLv3", "ISC License", "Mozilla Public License", "MIT", "Unlicensed"]
+        choices: ["Apache-2.0", "GPL-3.0", "MIT"]
     },
     {
         type: "input",
@@ -57,7 +57,8 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     writeFile(`${fileName}`, data, (err) => {
-        err ? console.log(err) : console.log('README generated')
+        err ? console.lo
+        (err) : console.log('README generated')
     })
 }
 
