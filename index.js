@@ -56,8 +56,7 @@ const questions = [
 //Write README.md
 function writeToFile(fileName, data) {
     writeFile(`${fileName}`, data, (err) => {
-        err ? console.lo
-        (err) : console.log('README generated')
+        err ? (err) : console.log('README generated')
     })
 }
 
